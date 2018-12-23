@@ -90,6 +90,6 @@ git push origin master
 Go to your [netlify dashboard](https://app.netlify.com/) and deploy your repo.
 You will go a url ( exemple: https://wizardly-wozniak-123c2b.netlify.com )
 
-Your endpoint will be on functions tabs of the project, like `PROJECT_URL/.netlify/functions/NAME_OF_YOUR_FUNCTION`
+Your endpoint will be on functions tabs of the project, and set as `PROJECT_URL/.netlify/functions/NAME_OF_YOUR_FUNCTION`
 
 - Enjoy your first lambda on netlify
