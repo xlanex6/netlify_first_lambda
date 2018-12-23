@@ -1,20 +1,18 @@
 ## Netlify Lambda
 
----
-
-Every thing start with ...
+Everythings start with ...
 
 ```bash
  npm init
 ```
 
-then install the npm package [netlify-lambda](https://www.npmjs.com/package/netlify-lambda)
+Install the npm package [netlify-lambda](https://www.npmjs.com/package/netlify-lambda)
 
 ```bash
 npm install netlify-lambda
 ```
 
-To start on dev mode you need to add some sripts on `package.json` file
+Add some sripts on `package.json` file, to build and serve the localhost for local development.
 
 ```json
 ...
@@ -25,7 +23,7 @@ To start on dev mode you need to add some sripts on `package.json` file
 ...
 ```
 
-- After, create a `netlify.toml` file for the config, on root of the project also.
+- After, create a `netlify.toml` file for the config on root of the project.
 
 ```bash
  touch netlify.toml
@@ -75,20 +73,23 @@ npm run lambda-serve
 
 Test with Postman on [Insomnia](https://insomnia.rest/)
 
-on `POST` on URI `http://localhost:9000/welcome` like below
+on `POST` and URI `http://localhost:9000/welcome` like below
 
 ![alternate text](./img/insomnia.png)
 
-Well done in the new univers of function as service (`FASS`).
+Wellcome in the new univers of function as service (`FASS`).
 
 If you need to push on production, create on your favorite git storage provider but works well with [hub](https://hub.github.com/).
 
 ```bash
 git add .
-git commit -m 'initial commit'
+git commit -m 'intial commit'
 git push origin master
 ```
 
-Go to your [netlify dashboard](https://app.netlify.com/) and
+Go to your [netlify dashboard](https://app.netlify.com/) and deploy your repo.
+You will go a url ( exemple: https://wizardly-wozniak-123c2b.netlify.com )
 
-- Enjoy your lambda
+Your endpoint will be on functions tabs of the project, like `PROJECT_URL/.netlify/functions/NAME_OF_YOUR_FUNCTION`
+
+- Enjoy your first lambda on netlify
