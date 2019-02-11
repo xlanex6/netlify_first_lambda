@@ -1,5 +1,6 @@
+import readingTime from 'reading-time';
+
 exports.handler = (event, context, callback) => {
-  const readingTime = require('reading-time');
   const { text } = JSON.parse(event.body);
   const stat = readingTime(text);
 
