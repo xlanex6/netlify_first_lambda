@@ -77,7 +77,7 @@ on `POST` and URI `http://localhost:9000/welcome` like below
 
 ![alternate text](./img/insomnia.png)
 
-Wellcome in the new univers of function as service (`FASS`).
+Welcome in the new univers of Function As Service (`FASS`).
 
 If you need to push on production, create on your favorite git storage provider but works well with [hub](https://hub.github.com/).
 
